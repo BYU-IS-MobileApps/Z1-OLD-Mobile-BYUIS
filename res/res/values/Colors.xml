@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- All the colors are defined here -->    
+    <color name="grey1">#444444</color>
+    <color name="yellow1">#EEAA00</color>
+    <color name="orange">#EE8800</color>
+    <color name="red">#990011</color>
+    <color name="green">#007722</color>
+    <color name="blue1">#001948</color>
+    <color name="blue2">#002255</color>
+    <color name="blue3">#003366</color>
+    <color name="blue4">#114477</color>
+    <color name="blue5">#336699</color>
+    <color name="blue6">#628cb6</color>
+    <color name="blue7">#91b2d2</color>
+    <color name="blue8">#abc8e4</color>
+    <color name="blue9">#d1e4f6</color>
+    <color name="tan">#C5AF7D</color>
+    <color name="black">#000000</color>
+    
+</resources>

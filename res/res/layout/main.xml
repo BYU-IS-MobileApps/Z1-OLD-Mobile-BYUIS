@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/set_preferences"
+        android:layout_centerHorizontal="true"
+        android:text="BYU: Independent Study"
+        android:textColor="#0066CC"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+    
+    <Button
+        android:id="@+id/download_grades_test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test: download grades" />
+
+    <Button
+        android:id="@+id/my_grades_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/download_grades_test"
+        android:text="@string/my_grades_button_text" />
+
+    <Button
+        android:id="@+id/set_preferences"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_grades_button"
+        android:text="Preferences" />    
+
+</RelativeLayout>
