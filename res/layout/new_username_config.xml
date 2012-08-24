@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/grey1"
+    android:baselineAligned="false"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/configurationTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="User Preferences:"
+        android:textColor="#0066CC"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/usernameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+ 		android:layout_below="@id/configurationTitle"
+        android:textColor="#0066CC"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:typeface="sans" 
+        android:text="Username:"/>
+                
+    <EditText android:id="@+id/userNameEntry" 
+        android:layout_width="200dp" 
+        android:layout_height="wrap_content" 
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_below="@id/usernameLabel"
+        android:textColor="@color/black" 
+        />        
+
+     <TextView
+        android:id="@+id/passwordLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+ 		android:layout_below="@id/userNameEntry"
+        android:text="Password:"
+        android:textColor="#0066CC"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <EditText android:id="@+id/passwordEntry" 
+    	android:layout_width="200dp" 
+        android:layout_height="wrap_content" 
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@android:drawable/editbox_background"
+        android:layout_below="@id/passwordLabel"
+        android:password="true" 
+        android:textColor="@color/black"/>
+        
+    <Button 
+    	android:id="@+id/validateNewUser"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_below="@id/passwordEntry"
+    	android:layout_centerHorizontal="true"
+    	android:layout_marginTop="10dp"
+    	android:text="Login!" />
+  
+</RelativeLayout>

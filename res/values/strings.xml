@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, BYUISActivity!</string>
+    <string name="app_name">BYUIS</string>
+
+    <!-- Menu strings -->
+    <string name="option_one_string">Option 1</string>
+        
+    <!-- Preference strings -->
+    <string name="titleUsername">Username:</string>
+    <string name="summaryUsername">Login username.</string>
+    
+    <string name="titlePassword">Password:</string>
+    <string name ="summaryPassword">User password</string>
+    
+    <string name="preference_text">Prefs</string>
+    <string name="my_grades_button_text">Grades</string>
+    <string name="exit">Exit</string>
+</resources>

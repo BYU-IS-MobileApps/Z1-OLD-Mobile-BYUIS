@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+				xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent" 
+                android:layout_height="fill_parent"
+                android:background="@color/grey1"
+                android:padding="10px" >
+
+    <TextView android:id="@+id/username" 
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content" 
+              android:text="Username:" />
+
+
+    <EditText android:id="@+id/usernameEntry" 
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content" 
+              android:background="@android:drawable/editbox_background"
+              android:layout_below="@id/username" />
+              
+   	<TextView android:id="@+id/password" 
+   			android:layout_below="@id/usernameEntry"
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content" 
+              android:text="Password:" />
+   
+       <EditText android:id="@+id/pass" 
+              android:layout_width="fill_parent" 
+              android:layout_height="wrap_content"
+              android:layout_below="@id/password" 
+              android:background="@android:drawable/editbox_background"/>
+   
+  
+    <Button android:id="@+id/ok" 
+            android:layout_width="fill_parent" 
+            android:layout_height="wrap_content" 
+            android:layout_below="@id/pass"
+            android:layout_marginTop="10px"
+            android:text="Login" 
+            android:background="@layout/custom_button"/>
+
+ </RelativeLayout>

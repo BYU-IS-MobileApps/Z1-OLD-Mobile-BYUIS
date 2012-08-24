@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:id="@+id/prefs" 
+		android:title="@string/preference_text" 
+		android:icon="@android:drawable/ic_menu_edit"></item>
+	<item android:id="@+id/exit" 
+	    android:title="@string/exit"
+	    android:icon="@android:drawable/ic_menu_preferences"></item>
+</menu>
